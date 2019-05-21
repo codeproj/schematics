@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "id":"feature",
+  "title": "Feature Schema",
+  "type": "object",
+  "properties":{
+    "name":{
+      "type":"string",
+      "default": "app",
+    },
+    "appRoot":{
+      "type":"string"
+    },
+    "sourceDir":{
+      "type":"boolean",
+      "default": false,
+      "description": "Generate service",
+      "alias": "ft"
+    },
+    "services": {
+      "type":"boolean",
+      "default": false,
+      "description": "Generate service",
+      "alias": "ft"
+    }
+  }
+}
